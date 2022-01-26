@@ -55,7 +55,7 @@ export function Header() {
           Log In
         </Link>
         <Link to="/account" className="account">
-          Create Accountfdsfdsggdfgdfgdgdfgdfgdf
+          Create Account
         </Link>
         <Link to="/cart" className="cart">
           {`${getCartCount(ctx.user.cart)} Cart`}
